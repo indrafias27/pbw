@@ -1,0 +1,245 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans" ,sans-serif;
+  background-color: #222831;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+  float: left;
+  padding: 10px;
+
+}
+
+.menu {
+  float: right;
+  margin-right: 20px;
+}
+
+nav {
+  margin: auto;
+  display: flex;
+  line-height: 75px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  background: #FF2E63;
+  z-index: 1;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 40px;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul ul li {
+  width: 175px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+nav a:hover {
+  background-color: #FF2E63;
+}
+
+a.wt-biru {
+  background: #FF2E63;
+  border-radius: 15px;
+  margin-top: 25px;
+  padding: 15px 20px 15px 20px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.wt-biru:hover {
+  background-color: #112D4E;
+  text-decoration: none;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kolom img {
+  width: 400px;
+  height: 400px;
+  float: left;
+  padding: 30px;
+}
+
+.kolom {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.kolom h2 {
+  font-family: "comic sans ms";
+  margin-bottom: 25px;
+  font-size: 35px;
+  color: white;
+  padding-top: 30px;
+}
+
+.kolom p {
+  font-family: "comic sans ms";
+  font-size: 25px;
+  color: white;
+  margin-left: 30px;
+  margin-right: 50px;
+  line-height: 42px;
+  text-align: justify;
+}
+
+.Jenis h2 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.lsemarang img {
+  width: 600px;
+  height: 400px;
+ margin-left: 30%;
+}
+
+.lsemarang h2 {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.lsemarang p {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.ljakarta img {
+  width: 600px;
+  height: 400px;
+ margin-left: 30%;
+}
+
+.ljakarta h2 {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.ljakarta p {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.lbogor img {
+  width: 600px;
+  height: 400px;
+ margin-left: 30%;
+}
+
+.lbogor h2 {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.lbogor p {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.resep-lumpia h2 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.resep-lumpia img {
+  width: 600px;
+  height: 400px;
+  margin-left: 30%;
+}
+
+table,th,td {
+  background-color: sandybrown;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 20%;
+  margin-left: 40%;
+}
+table,li{
+  padding-left: 10px;
+}
+.langkah p{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  text-align: justify;
+  margin-right: 20px;
+}
+
